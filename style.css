@@ -1,0 +1,612 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* header star */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.menu {
+  display: none;
+}
+/* .container {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  max-width: 1400px;
+   margin: 30px 100px;
+} */
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+.navbar {
+  display: flex;
+}
+#get {
+  border: none;
+  margin-left: 16px;
+  padding: 15px;
+  background: #ece6ff;
+  border-radius: 0px;
+  color: #794cff;
+  font-weight: 500;
+  margin-top: -48px;
+}
+.navbar div {
+  margin: 0 20px;
+}
+/* header end  */
+
+/* section-1 start */
+.section-1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.section-save {
+  display: flex;
+  justify-content: center;
+  margin-top: 108px;
+}
+.save {
+  border: none;
+  background-color: #81c43b;
+  color: white;
+  border-radius: 100px;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 8px 16px;
+  width: 108px;
+  height: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+}
+.account {
+  border: none;
+  margin-left: -25px;
+  background: #f2f9eb;
+  border-radius: 100px;
+  display: flex;
+}
+.navbar a {
+  color: black;
+}
+.manage {
+  width: 600px;
+  font-size: 55px;
+  text-align: center;
+  margin-top: 24px;
+}
+.paragraph {
+  /* width: 450px; */
+  text-align: center;
+  margin: 20px 0;
+  color: #4e5a65;
+  margin-top: 24px;
+  line-height: 24px;
+}
+/* section-1 end */
+
+#email {
+  font-family: "Inter";
+  margin-top: 24px;
+  width: 250px;
+  padding: 18px 50px 18px 30px;
+  /* font-weight: 500; */
+  font-size: 16px;
+  color: #97a5b5;
+}
+
+#try {
+  border-radius: 4px 0px 0px 4px;
+  padding: 18px 45px 18px 45px;
+  margin-top: 20px;
+  font-family: "Inter";
+  /* font-weight: 500; */
+  font-size: 16px;
+  color: #ffffff;
+  background: #794cff;
+}
+/* section-1 end */
+/* overview start */
+.overview {
+  display: flex;
+  justify-content: center;
+}
+/* overview end */
+
+/*  === Best teams start = */
+.best_teams {
+  max-width: 1250px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.trusred_by {
+  margin-top: 100px;
+  margin-bottom: 29px;
+  /* width: 400px; */
+}
+.trusred {
+  font-weight: 400;
+}
+.number_style {
+  font-weight: 700;
+  font-style: bold;
+}
+.container_logo {
+  display: flex;
+  justify-content: space-between;
+  width: 1000px;
+}
+
+/* === Timeline start ===== */
+.blocks-1 {
+  background-color: #fbfafe;
+  width: 100%;
+  margin: 20px auto;
+  padding: 20px 0;
+}
+.container__Timeline {
+  width: 1100px;
+  display: flex;
+  margin: 56px auto;
+  align-items: center;
+  justify-content: space-between;
+}
+.container_right_Survey {
+  background-color: #f6f3fc;
+  align-items: flex-end;
+}
+h3 {
+  text-align: center;
+  margin-bottom: 29px;
+  margin-top: 20px;
+  color: #35414b;
+  font-family: "Inter";
+  font-style: normal;
+  font-size: 16px;
+}
+
+/* === Timeline end===*/
+
+/* ===== Work easier start ==== */
+.blocks-2 {
+  width: 1100px;
+  margin: 56px auto;
+}
+
+.container__work_easir {
+  margin: 0 auto;
+  /* width: 436px; */
+  width: 300px;
+  margin-bottom: 80px;
+}
+
+.make {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 30px;
+  text-align: center;
+  color: #35414b;
+}
+.main_info {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+h3 {
+  color: #35414b;
+  left: 165px;
+  top: 2438px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+}
+/* ===== Work easier end ===== */
+
+/* ===== Hous worked start==== */
+.blocks-3 {
+  width: 1100px;
+  margin: 56px auto;
+}
+.container__hous_worked {
+  display: flex;
+  margin-top: 250;
+  box-sizing: border-box;
+  background: #fbfafe;
+  border: 1px solid #f0ebfa;
+}
+
+.container__left{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+h2 {
+  left: 165px;
+  top: 2986px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 40px;
+  color: #35414b;
+}
+.since {
+  width: 300px;
+  height: 72px;
+  top: 3106px;
+  font-family: "Inter";
+  color: #4e5a65;
+}
+.container__left button {
+  border-radius: 4px;
+  width: 164px;
+  background-color: blue;
+  border: none;
+  padding: 20px;
+  margin: 50px 0;
+  color: #ffffff;
+}
+ 
+/* ===== House worked end ===== */
+
+/* ==== Why customers start ===== */
+.blocks-4 {
+  display: flex;
+  flex-direction: column;
+}
+
+.container_customers{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.container_customers h2 {
+  text-align: center;
+  color: #35414b;
+}
+.container_customers p {
+  /* display: flex;
+  justify-content: center;*/
+  text-align: center;
+  margin: 20px 0;
+}
+
+.developer_container {
+  /* width: 40%; */
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.dev_icon a{
+  width: 330px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+/* === Why customers end === */
+
+/* === 84% employees start === */
+.blocks-5 {
+width: 100px;
+}
+.container-employees {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #796eff;
+  border-radius: 16px;
+  color: #ffffff;
+  height: 200px;
+}
+
+.container-employees h2 {
+  color: #ffffff;
+  max-width: 423px;
+  font-size: 30px;
+}
+.container-employees img {
+  padding: 0 10px;
+}
+/* === 84% employees end === */
+
+/* ==== Footer ====== */
+footer {
+  background-color: #1d2830;
+  color: #ffffff;
+}
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 0px;
+}
+.footer-content div h4,
+.footer-content div ul li,
+.footer-content div img {
+  padding: 10px;
+}
+.all_rights {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 120px;
+}
+ul {
+  list-style: none;
+  font-size: 16px;
+  font-weight: 400px;
+}
+.Install_App {
+  display: flex;
+  flex-direction: column;
+}
+/* Footer end */
+
+
+
+/* TODO АДАПТИВКА */
+/* header */
+@media all and (max-width: 1100px) {
+  .navbar,
+  .btns {
+    display: none;
+  }
+  .menu {
+    display: block;
+  }
+.container__Timeline{
+  width: 100%;
+}
+.blocks-2{
+  width: 100%;
+}
+
+.blocks-3 {
+  width: 100%;
+}
+
+.blocks-4 p{
+  margin-left: 0;
+}
+}
+
+@media all and (max-width: 768px){
+  header{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .overview {
+    width: 100%;
+  }
+
+  .overview img{
+    width: 100%;
+  }
+}
+
+@media all and (max-width: 425px){
+  .manage {
+    width: 100%;
+    font-size: 30px;
+  }
+
+  .container_logo{
+    width: 100%;
+    height: 200px;
+
+  }
+
+   .container__right img{
+    width: 100%;
+    
+  }
+
+  .container-employees {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+      
+  }
+
+  .employees84 h2{
+    text-align: center;
+    font-size: 18px;
+    line-height: 20px;
+  }
+
+  .employees-img
+  {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .employees-img img{
+   margin: 10px 0; 
+  }
+
+  .footer-content {
+    font-size: 18px;
+    flex-wrap: wrap;
+  }
+
+  .footer-content ul{
+    font-size: 13px;
+  }
+
+  .all_rights{
+    flex-wrap: wrap;
+  }
+}
+
+@media all and (max-width: 500px) {
+  .h1 {
+    margin-left: 50px;
+    font-size: 24px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+  }
+  .paragraph-1 {
+    font-size: 12px;
+  }
+  .section-save {
+    margin-left: 5px
+  }
+}
+@media all and (max-width: 300px) {
+  #email {
+    width: 100px;
+  }
+  #try {
+    width: 100px;
+  }
+}
+/* overview */
+
+/* Best teams */
+@media all and (max-wedth: 500px) {
+  .trusred_by {
+    width: 200px;
+  }
+}
+@media all and (max-width: 1000px) {
+  .container_logo {
+    align-items: center;
+    flex-direction: column;
+  }
+}
+
+/* Timeline block-1*/
+@media all and (max-width: 950px) {
+  .container__Timeline {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .container__left-1 {
+    width: 100%
+  }
+
+  .container__left-1 img{
+    width: 100%;
+  }
+}
+@media all and (max-width: 350px) {
+  .container_right_Resolve {
+    font-size: 12px;
+  }
+}
+/* Work easier blocks-2 */
+@media all and (max-width:1100px) {
+  .main_info {
+    /* width: 500px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .main_info img{
+  width: 150px;
+  margin-left: 25px;
+  margin-top: 35px;
+  margin-bottom: 15px;
+  }
+}
+/* Hous worked blocks-3 */
+@media all and (max-width: 1100px) {
+  .blocks-3 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .container__right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .container__hous_worked {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/* Why customers */
+@media all and (max-width: 800px) {
+  .blocks-4 {
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+  }
+  .container_customers h2, p {
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+  } 
+  /* .developer_container {
+   flex-direction: flex-wrap;
+  } */
+ } 
+
+/* 84% employees */
+@media all and (max-wedth:700px) {
+  .container-employees container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .employees-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .container-employees h2 {
+    font-size: 30px;
+  }
+}
+
+/* footer */
+@media all and (max-width: 330px) {
+  .blocks-5 {
+    width: 100%;
+  }
+  .footer-content div ul{
+    display: none;
+  }
+  
+  .footer-content {
+    justify-content: center;
+    padding: 0 46px;
+    flex-direction: column;
+  }
+ }
